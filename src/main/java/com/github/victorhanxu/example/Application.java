@@ -21,7 +21,7 @@ public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         //Works!!
-        //System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "qa1");
+        //System.setProperty(AbstractEnvironment.ACTIVE_PROFILES_PROPERTY_NAME, "qa1,dev,prod,aaa,bbb,ttt");
 
         SpringApplication.run(Application.class, args);
     }

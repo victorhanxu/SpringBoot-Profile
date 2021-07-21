@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Profile("tttt")
+//@Profile("qa1")
 public class HelloController {
     @Autowired
     MyService myService;
